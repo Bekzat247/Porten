@@ -1,0 +1,511 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.burgermenu img{
+    width: 40px;
+
+}
+.burgermenu{
+    display: none;
+}
+.container{ 
+    width: 70%;
+    margin: 0 auto;
+}
+header{
+    background-color: #0f0f0f;
+    height: 10vh;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;     
+    height: 100%;                                 
+}
+header .container div{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+
+}
+header a{
+    font-style: normal;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #969696;
+    text-decoration: none;
+}
+
+main{
+    height: 90vh;
+    background-image: url(./images/Rectangle\ 3\ \(1\).png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-position: center;
+}
+main div{
+    width: 320px;
+    height: 320px;
+    border: 4px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main hr{
+    width: 60%;
+    height: 1px;
+    background-color: white;
+    margin: 7px 0;
+}
+main h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+main p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    width: 50%;
+}
+.season{
+    height: 90vh;
+    display: flex;
+}
+.season .left{
+    width: 55%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+
+}
+.season .right{
+    width: 45%;
+    background-image: url(./images/Rectangle\ 8.png);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.clocks{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}          
+.clocks p{
+    color: white;
+    margin-top: 15px;
+    font-family: 'Playfair Display' ,serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    
+    
+}           
+.clock div{
+    background-color: #191b1c;
+    height: 305px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}                
+.season .left h1{
+    font-style: normal;
+    font-family: 'Playfair Display' ,serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+.season .left h1::after{
+    content: "";
+    width: 120px;
+    height: 1px;
+    background-color: white;
+    position: relative;
+    display: block;
+    top: 40px;
+    left: 30%;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+
+.season .right h1{
+    font-family: 'Playfair Display',serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.season .right h1::after{
+    content: "";
+    width: 120px;
+    height: 1px;
+    background-color: white;
+    position: relative;
+    display: block;
+    top: 40px;
+    left: 34%;
+}
+.season .right button{
+    background-color: #de1d1d00;
+    border: 1px solid white;
+    padding: 15px 45px;
+    color: white;
+    margin-top: 10%;
+    transition: ease-in-out 0.5s;
+}
+.season .right button:hover{
+    background-color: #4b4b4b;
+}
+.season .right button:active{
+    background-color: #acacac;
+}
+.collection{
+    height: 75vh;
+    display: flex;
+}
+.collection .left{
+    width: 45%;
+    background-image: url(./images/Rectangle\ 9.png);
+    background-size: cover;
+    background-position: center;
+}   
+.collection .right{
+    width: 55%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.collection h1{
+    font-family: "Playfair-Display", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+.collection p{
+    font-style: normal;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    width: 50%;
+}
+.collection .right button{
+    background-color: #de1d1d00;
+    border: 1px solid white;
+    padding: 15px 45px;
+    color: white;
+    margin-top: 10%;
+}
+.collection .right button:hover{
+    background-color: #4b4b4b;
+}
+.collection .right button:active{
+    background-color: #acacac;
+}
+.collection .right h1::after{
+    content: "";
+    width: 120px;
+    height: 1px;
+    background-color: white;
+    position: relative;
+    display: block;
+    top: 40px;
+    left: 29%;
+}
+.conteiner h1{
+    color: white;
+    font-family: "Playfair-Display", serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.conteiner h1::after{
+    content: "";
+    width: 120px;
+    height: 1px;
+    background-color: white;
+    position: relative;
+    display: block;
+    top: 40px;
+    left: 34%;
+}
+
+.conteiner>div{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.conteiner{
+    height: 160vh;
+    background-color: black;
+    display: flex;
+}
+.conteiner>div .clocks{
+    display: flex;
+    gap: 23px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+    
+}          
+.clocks p{
+    color: white;
+    margin-top: 15px;
+    font-family: 'Playfair Display' ,serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    
+    
+}           
+.clock div{
+    background-color: #191b1c;
+    height: 305px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brends{
+    background-color: #0f0f0f;
+    height: 40vh;
+
+}
+.from{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    /*   */
+    flex-direction: column;
+    align-items: center;
+}
+.from h1{
+    color: white;
+    font-family: "Playfair-Display", serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.from h1::after{
+    content: "";
+    width: 120px;
+    height: 1px;
+    background-color: white;
+    position: relative;
+    display: block;
+    top: 40px;
+    left: 28%;
+}
+.from>div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+.help{
+    height: 40vh;
+    background-image: url(./images/Rectangle\ 15.png);
+    background-position: center;
+}
+.help1{
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+.help1 div h1{
+    color: white;
+    font-family: "Playfair-Display", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10%;
+}
+.abmag p{
+    color: white;
+}
+.help1 div{
+    width: 30%;
+}
+.catagprii button{
+    border: 0;
+    width: 30%;
+    height: 30%;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+.catagprii button:hover{
+    background-color: #4b4b4b;
+}
+.catagprii button:active{
+    background-color: #969696;
+}
+.rassylka p{
+    color: white;
+}
+.rassylka input{
+    background-color: #ffffff69;
+    border: 0;
+    width: 60%;
+    height: 15%;
+}
+.rassylka button{
+    border: 0;
+    width: 30%;
+    height: 15%;
+    background-color: black;
+    color: white;
+}
+.rassylka button:hover{
+    background-color: #4b4b4b;
+}
+.rassylka button:active{
+    background-color: #acacac;
+}
+@media (max-width: 576px) {
+    .burgermenu{
+        display: block;
+    }
+    header .container>div{
+        display: none;
+    }
+    main{
+        background-position: center;
+    }
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }   
+    .season{
+        flex-direction: column;
+        height: 2300px;
+    }
+    .season .left .clocks{
+        flex-direction: column;
+    }
+    .season .left{
+        width: 100%;
+        height: 1500px;
+    }
+    .season .right{
+        width: 100%;
+        height: 800px;
+        background-position:left center;
+        
+    }
+    .season .right h1{
+        margin-bottom: 30px;
+    }
+    .collection{
+        height: 1400px;
+        flex-direction: column-reverse;
+    }
+    .collection .left{
+        height: 800px;
+        width: 100%;
+    }
+    .collection .right{
+        height: 600px;
+        width: 100%;
+    }
+    .collection .right p{
+        width: 90%;
+    }
+    .conteiner{
+        height: 3500px;
+        width: 100%;
+    }
+    .conteiner h1::after{
+        left: 30%;
+    }
+    .brends{
+        height: 650px;
+        width: 100%;
+    }
+    .brends .from div{
+        flex-direction: column;
+        margin-top: 10%;
+    }
+    .help{
+        height: 1000px;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    .help1{
+        flex-direction: column;
+        width: 100%;
+        align-items: center ;
+        justify-content: center;
+    }
+    .help1 div{
+        width: 100%;
+        margin-top: 20px;
+    } 
+    .catagprii button{
+        width: 60%;
+        height: 60px;
+        margin-left: 75px;
+    }
+    .rassylka input{
+        height: 40px;
+        margin-top: 20px;
+    }
+    .rassylka button{
+        height: 40px;
+        margin-top: 20px;
+        
+    }
+}
